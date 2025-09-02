@@ -95,3 +95,4 @@ C:\Users\kfc07\OneDrive\Desktop\COMP4952\WebpageYay\obj\Debug\net9.0\refint\Webp
 C:\Users\kfc07\OneDrive\Desktop\COMP4952\WebpageYay\obj\Debug\net9.0\WebpageYay.pdb
 C:\Users\kfc07\OneDrive\Desktop\COMP4952\WebpageYay\obj\Debug\net9.0\WebpageYay.genruntimeconfig.cache
 C:\Users\kfc07\OneDrive\Desktop\COMP4952\WebpageYay\obj\Debug\net9.0\ref\WebpageYay.dll
+C:\Users\kfc07\OneDrive\Desktop\COMP4952\WebpageYay\obj\Debug\net9.0\WebpageYay.sourcelink.json

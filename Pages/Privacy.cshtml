@@ -5,4 +5,15 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+    <table>
+        @foreach (var process in Model.ProcessList!)
+        {
+            <tr>
+                <td>
+                    <a asp-page="/ProcessDetails" asp-route-id="@process.Id">
+                        @process.ProcessName
+                    </a>
+                </td>
+            </tr>
+        }
+    </table>

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Diagnostics;
 
 namespace WebpageYay.Pages;
 
@@ -14,6 +15,7 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-
+        var procs = Process.GetProcesses();
+        ViewData["ProcessCount"] = procs;
     }
 }

@@ -1,0 +1,20 @@
+﻿@page
+@using System.Diagnostics
+@model WebpageYay.Pages.ProcessDetailsModel
+@{
+    Process? process = (Process?)ViewData["ProcessInfo"];
+}
+
+@if (process != null)
+{
+    <h1>Process Details</h1>
+    <ul>
+        <li>Process Name: @process.ProcessName</li>
+        <li>Start Time: @process.StartTime</li>
+        <li>Total Processor Time: @process.TotalProcessorTime</li>
+    </ul>
+}
+else
+{
+    <p>Process not found.</p>
+}

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebpageYay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bd7f82c8aa5d444996675816ab63a1899623175")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+570aa1f471a7dfde25c092a8a1b45c4cbaa3e3ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebpageYay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebpageYay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
